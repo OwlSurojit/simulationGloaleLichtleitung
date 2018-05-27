@@ -1,0 +1,28 @@
+Ea = (300 + 21000 sin γs) × lx
+γs = acos((pow(earthRadius, 2) + x*x + y*y + z*z + 2*z*sunDist) / (2*earthRadius*sqrt(x*x + y*y + pow(z+sunDist,2)))) - HALF_PI
+Lichtstrom einer Straßenlaterne: ΦV = EV * A = 9,625lx * (49/4)π m² ~= 370,4lm
+
+ADDITIONAL FEATURE: To manage the light flow direction to be the same for all cables, the cableVertexies need to be sorted when the cableConstruction is finished and before the cable is saved.
+NECESSARY FEATURE: The lamps should only light up if there isn't enough light around them.
+
+
+10646500
+bri:177.44165
+bri:177.44165
+bri:177.44165
+10649000
+bri:177.4833
+bri:177.4833
+bri:177.4833
+10649500 lm
+bri:177.49165 lm			(= collFlux/(noLamps*noLanterns))
+bri:177.49165
+bri:177.49165
+10648500
+bri:177.475
+bri:177.475
+bri:177.475
+10645500
+bri:177.425
+bri:177.425
+bri:177.425
